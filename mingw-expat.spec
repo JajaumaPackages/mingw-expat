@@ -2,7 +2,7 @@
 
 Name:           mingw-expat
 Version:        2.2.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows port of expat XML parser library
 
 License:        MIT
@@ -120,6 +120,9 @@ rm -r $RPM_BUILD_ROOT%{mingw64_mandir}/man1
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 2.2.0-2
+- Rebuilt with GCC 5.4.0
+
 * Mon Oct 24 2016 Kalev Lember <klember@redhat.com> - 2.2.0-1
 - Update to 2.2.0
 - Don't set group tags
